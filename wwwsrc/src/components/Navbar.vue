@@ -8,7 +8,7 @@
                     </div>
                 </router-link>
             </div>
-            <div v-if="user == {}">
+            <div v-if="!user.email">
                 <div class="dropdown pointer">
                     <a class="dropdown-toggle" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span>
